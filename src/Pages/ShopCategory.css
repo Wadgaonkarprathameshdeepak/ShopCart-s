@@ -15,3 +15,28 @@
 .shopcategory-loadmore:hover {
   background-color: #e64a2e !important; /* Change color on hover */
 }
+
+
+.sold-out-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sold-out-content {
+  text-align: center;
+}
+
+.sold-out-content img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+}
+
+.sold-out-content p {
+  margin-top: 10px;
+}
+p{
+  text-align: center;
+
+}

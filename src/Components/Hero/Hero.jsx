@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './Hero.css'
-import hand_icon from '../Assets/hand_icon.png'
+//import hand_icon from '../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
 import hero_image from '../Assets/hero_image.png'
 import { ShopContext } from '../../Context/ShopContext'
@@ -12,10 +12,9 @@ const Hero = () => {
             <div className="hero-left">
                 <h2  className={'h2h_'+theme}>NEW ARRIVALS ONLY</h2>
                 <div>
-                    <div className="hero-hand-icon">
                         <p className={'ph_'+theme}>New</p>
-                        <img src={hand_icon} alt="" />
-                    </div>
+                        
+                    
                     <p className={'ph_'+theme}>Collections</p>
                     <p className={'ph_'+theme}>For Everyone</p>
                 </div>
