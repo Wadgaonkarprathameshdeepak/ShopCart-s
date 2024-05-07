@@ -12,6 +12,8 @@ import Contact from './Pages/Contact';
 import ScrollToTop from 'react-scroll-to-top';
 import { useContext } from 'react';
 import { ShopContext } from './Context/ShopContext';
+import Admin from './Pages/Admin';
+
 
 function App() {
   const { theme } = useContext(ShopContext);
@@ -31,6 +33,7 @@ function App() {
           <Route path='/login' element={<LoginSignup />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/Admin' element={<Admin />} />
         </Routes>
         <Footer />
       </BrowserRouter>
