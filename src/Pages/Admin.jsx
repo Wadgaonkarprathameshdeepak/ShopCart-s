@@ -177,8 +177,8 @@ const Admin = () => {
                   <div>${product.price}</div>
                 </div>
                 <div>
-                  <button onClick={() => handleUpdateProduct(index)}>Update</button>
-                  <button onClick={() => handleDeleteProduct(index)}>Delete</button>
+                  <button className="animated-button" onClick={() => handleUpdateProduct(index)}>Update</button>
+                  <button  className="animated-button" onClick={() => handleDeleteProduct(index)}>Delete</button>
                 </div>
               </li>
             ))}

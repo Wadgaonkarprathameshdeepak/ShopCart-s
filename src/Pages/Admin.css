@@ -135,4 +135,19 @@ button:hover {
   text-decoration: line-through;
   height: 25rem;
   padding: 25px;
+  animation: moveUpDown 2s infinite alternate;
+  
+  /* Apply animation to move up and down */
+
+}
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0); /* Start at current position */
+  }
+  50% {
+    transform: translateY(-10px); /* Move up by 20px */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
 }
