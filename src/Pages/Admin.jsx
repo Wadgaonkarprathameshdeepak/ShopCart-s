@@ -100,7 +100,7 @@ const Admin = () => {
         if (user.username === username) {
           return { ...user, password: newPassword };
         }
-        return user;
+        return user; 
       });
       setUsers(updatedUsers);
       alert('Password updated successfully!');
