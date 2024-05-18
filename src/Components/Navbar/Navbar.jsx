@@ -4,6 +4,7 @@ import logo from '../Assets/logo.png';
 import cart_icon from '../Assets/cart_icon.png';
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
+import Chatbots from '../Chatbot.js';
 
 const Navbar = () => {
     const { getTotalCartItems } = useContext(ShopContext);
@@ -28,6 +29,8 @@ const Navbar = () => {
                 <Link to='/cart'><img src={cart_icon} className='cart' alt="" /></Link>
                 <div className="nav-cart-count">{getTotalCartItems()}</div>
             </div>
+            <Chatbots /> {/* Add the Chatbot component here */}
+
         </div>
     )
 }
