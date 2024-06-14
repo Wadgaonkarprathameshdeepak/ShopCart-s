@@ -120,7 +120,7 @@ const Admin = () => {
 
 <div style={{ margin: '20px', color: 'black', fontSize: '25px', fontFamily: 'cursive', animation: 'moveDown 1s ease forwards'}}>
   <img src={gif} alt='dd' style={{ marginRight: '10px', height: '30vh', padding:'20px', marginTop:'5px',paddingTop:'3vh'}} />
-  Welcome to Admin Panel {username}
+  Welcome to Admin Panel {username} ..!!!
 </div>
 
         <div className="user-details" onClick={handleChangePassword}>
